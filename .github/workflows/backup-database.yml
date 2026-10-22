@@ -19,7 +19,7 @@ jobs:
         run: |
           sudo install -d /usr/share/postgresql-common/pgdg
           sudo apt-get update
-          sudo apt-get install -y postgresql-client-18
+          sudo apt-get install -y postgresql-client
 
       - name: Crear respaldo
         env:
